@@ -1,0 +1,7 @@
+{
+  "name": "new twitter app",
+  "description": "brief description goes here",
+  "repository": "www.twitter.com",
+  "logo": http://img.bhs4.com/21/4/2142d5b77e2372d3cb033171cb7a7eadc17be10e_large.jpg"",
+  "keywords": ["node", "express", "static"]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "deep-jargon",
+  "version": "0.1.2",
+  "description": "best jargon advice technically synergy of buzzwords",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "twit": "^1.1.20"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.yahoo.com/business"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
