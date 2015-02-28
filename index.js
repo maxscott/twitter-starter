@@ -79,10 +79,9 @@ var main = function(){
     tweet_this(phrase + " " + tag);
   }
 
-  setTimeout(main, 60 * 1000); //one minute
+  setTimeout(main, 60 * 1000); // repeat each minute
 }
-// calls once
-tweet_something_popular(util.randIndex(searches));
-// starts loop
-//main();
+
+// Start loop
+main();
 
