@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/mweinbrown/.nvm/v0.10.36/bin/node',
+1 verbose cli   '/Users/mweinbrown/.nvm/v0.10.36/bin/npm',
+1 verbose cli   'uninstall',
+1 verbose cli   '-g',
+1 verbose cli   'grunt' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose lib/node_modules/grunt unbuild
+5 info preuninstall grunt@0.4.5
+6 info uninstall grunt@0.4.5
+7 verbose true,/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules,/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules unbuild grunt@0.4.5
+8 info postuninstall grunt@0.4.5
+9 error Error: EACCES, unlink '/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules/grunt/.npmignore'
+9 error  { [Error: EACCES, unlink '/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules/grunt/.npmignore']
+9 error   errno: 3,
+9 error   code: 'EACCES',
+9 error   path: '/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules/grunt/.npmignore' }
+10 error Please try running this command again as root/Administrator.
+11 error System Darwin 13.4.0
+12 error command "/Users/mweinbrown/.nvm/v0.10.36/bin/node" "/Users/mweinbrown/.nvm/v0.10.36/bin/npm" "uninstall" "-g" "grunt"
+13 error cwd /Users/mweinbrown/Desktop/deep-presentation
+14 error node -v v0.10.36
+15 error npm -v 1.4.28
+16 error path /Users/mweinbrown/.nvm/v0.10.36/lib/node_modules/grunt/.npmignore
+17 error code EACCES
+18 error errno 3
+19 error stack Error: EACCES, unlink '/Users/mweinbrown/.nvm/v0.10.36/lib/node_modules/grunt/.npmignore'
+20 verbose exit [ 3, true ]

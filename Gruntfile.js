@@ -2,6 +2,7 @@
 module.exports = function(grunt) {
 	var port = grunt.option('port') || 8000;
 	// Project configuration
+  grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		meta: {
